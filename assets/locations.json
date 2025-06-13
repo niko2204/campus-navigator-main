@@ -1,0 +1,122 @@
+{
+  "buildings": [
+    {
+      "baseName": "제4공학관",
+      "coordinates": {
+        "latitude": 34.912782,
+        "longitude": 126.437992
+      },
+      "indoorMapUrl": "https://app.mappedin.com/map/672a67c1d3b850000baa8ccf",
+      "rooms": [
+        {"number": 320, "name": "이영호"},
+        {"number": 321, "name": "최종명"},
+        {"number": 319, "name": "유진호"},
+        {"number": 318, "name": "조광문"},
+        {"number": 313, "name": "강의실"}
+      ]
+    },
+    {
+      "baseName": "중앙도서관",
+      "coordinates": {
+        "latitude": 34.911000,
+        "longitude": 126.435000
+      },
+      "indoorMapUrl": "https://app.mappedin.com/map/683c15b4ebdb2d000bfbae1d",
+      "rooms": [
+        {"number": 101, "name": "열람실"},
+        {"number": 201, "name": "자료실"},
+        {"number": 301, "name": "학습공간"}
+      ]
+    },
+    {
+      "baseName": "제1공학관",
+      "coordinates": {
+        "latitude": 34.912513,
+        "longitude": 126.437222
+      },
+      "rooms": [
+        {"number": 210, "name": "박정수"},
+        {"number": 211, "name": "김동혁"},
+        {"number": 208, "name": "강의실"},
+        {"number": 209, "name": "강의실"},
+        {"number": 205, "name": "실험실"}
+      ]
+    },
+    {
+      "baseName": "자연과학2호관",
+      "coordinates": {
+        "latitude": 34.911830,
+        "longitude": 126.435550
+      },
+      "rooms": [
+        {"number": 105, "name": "서민아"},
+        {"number": 106, "name": "강의실"},
+        {"number": 110, "name": "강의실"},
+        {"number": 120, "name": "실험실"}
+      ]
+    },
+    {
+      "baseName": "자연과학1호관",
+      "coordinates": {
+        "latitude": 34.911720,
+        "longitude": 126.435100
+      },
+      "rooms": [
+        {"number": 201, "name": "이수진"},
+        {"number": 202, "name": "강의실"},
+        {"number": 210, "name": "김태훈"},
+        {"number": 215, "name": "강의실"}
+      ]
+    },
+    {
+      "baseName": "인문대학",
+      "coordinates": {
+        "latitude": 34.910928,
+        "longitude": 126.435371
+      },
+      "rooms": [
+        {"number": 201, "name": "이상진"},
+        {"number": 202, "name": "박서연"},
+        {"number": 210, "name": "강의실"},
+        {"number": 220, "name": "강의실"}
+      ]
+    },
+    {
+      "baseName": "산학협력단",
+      "coordinates": {
+        "latitude": 34.908715,
+        "longitude": 126.434587
+      },
+      "indoorMapUrl": "https://iacf.mokpo.ac.kr/iacftmp/10058/subview.do",
+      "rooms": [
+        {"number": 101, "name": "사무실"},
+        {"number": 201, "name": "회의실"},
+        {"number": 301, "name": "연구실"}
+      ]
+    }
+  ],
+  "specialLocations": [
+    {
+      "name": "분수대",
+      "coordinates": {
+        "latitude": 34.910548,
+        "longitude": 126.435225
+      }
+    },
+    {
+      "name": "대림식당",
+      "coordinates": {
+        "latitude": 34.910180,
+        "longitude": 126.431412
+      }
+    },
+    {
+      "name": "이영호교수네",
+      "coordinates": {
+        "latitude": 35.127598,
+        "longitude": 126.898632
+      },
+      "indoorMapUrl": "https://namu.wiki/w/제석산%20호반%20힐하임"
+    }
+  ]
+} 
