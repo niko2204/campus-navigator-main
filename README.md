@@ -93,6 +93,77 @@ open Runner.xcworkspace
 flutter run
 ```
 
+## locations.json 파일 형식
+
+`assets/locations.json` 파일은 캠퍼스 내 건물과 특수 위치 정보를 포함합니다. 파일 구조는 다음과 같습니다:
+
+```json
+{
+  "buildings": [
+    {
+      "baseName": "건물명",
+      "coordinates": {
+        "latitude": 위도,
+        "longitude": 경도
+      },
+      "indoorMapUrl": "실내지도_URL",  // 선택사항
+      "rooms": [
+        {
+          "number": 방번호,
+          "name": "교수명 또는 용도"
+        }
+      ]
+    }
+  ],
+  "specialLocations": [
+    {
+      "name": "위치명",
+      "coordinates": {
+        "latitude": 위도,
+        "longitude": 경도
+      },
+      "indoorMapUrl": "실내지도_URL"  // 선택사항
+    }
+  ]
+}
+```
+
+### 필드 설명
+
+#### buildings 배열
+- `baseName`: 건물의 기본 이름
+- `coordinates`: 건물의 위치 좌표
+  - `latitude`: 위도
+  - `longitude`: 경도
+- `indoorMapUrl`: 실내 지도 URL (선택사항)
+- `rooms`: 건물 내 방 목록
+  - `number`: 방 번호
+  - `name`: 교수명 또는 방 용도
+
+#### specialLocations 배열
+- `name`: 특수 위치의 이름
+- `coordinates`: 위치 좌표
+  - `latitude`: 위도
+  - `longitude`: 경도
+- `indoorMapUrl`: 실내 지도 URL (선택사항)
+
+## TODO 리스트
+
+### 현재 진행 중
+- [ ] 실시간 위치 추적 정확도 개선
+- [ ] 경로 안내 UI/UX 개선
+- [ ] 건물 내부 지도 연동 최적화
+
+### 향후 계획
+- [ ] UWB를 이용한 실내 위치 추적 시스템 구현
+  - [ ] UWB 앵커 설치 및 보정
+  - [ ] 실내 지도 제작 및 연동
+  - [ ] 실내 위치 추적 알고리즘 개발
+  - [ ] 실내/실외 위치 전환 로직 구현
+- [ ] 다국어 지원 추가
+- [ ] 다크 모드 지원
+- [ ] 오프라인 모드 지원
+
 ## 사용 방법
 
 1. 앱을 실행하면 현재 위치가 지도에 표시됩니다.
