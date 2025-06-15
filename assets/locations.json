@@ -12,7 +12,8 @@
         {"number": 321, "name": "최종명"},
         {"number": 319, "name": "유진호"},
         {"number": 318, "name": "조광문"},
-        {"number": 313, "name": "강의실"}
+        {"number": 313, "name": "강의실"},
+        {"number": 301, "name": "컴퓨터공학과 학과사무실"}
       ]
     },
     {
@@ -35,7 +36,7 @@
         "longitude": 126.437222
       },
       "rooms": [
-        {"number": 210, "name": "박정수"},
+        {"number": 101, "name": "이영호"},
         {"number": 211, "name": "김동혁"},
         {"number": 208, "name": "강의실"},
         {"number": 209, "name": "강의실"},
@@ -101,7 +102,8 @@
       "coordinates": {
         "latitude": 34.910548,
         "longitude": 126.435225
-      }
+      },
+      "indoorMapUrl": "https://www.youtube.com/watch?v=wjJcpfemxmM"
     },
     {
       "name": "대림식당",
@@ -117,6 +119,15 @@
         "longitude": 126.898632
       },
       "indoorMapUrl": "https://namu.wiki/w/제석산%20호반%20힐하임"
+    },
+
+    {
+      "name": "정문",
+      "coordinates": {
+        "latitude": 34.907812, 
+        "longitude": 126.430970
+      },
+      "indoorMapUrl": "https://www.youtube.com/watch?app=desktop&v=5VsjGbO1H58"
     }
   ]
 } 
