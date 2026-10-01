@@ -40,8 +40,13 @@ class LocationRepository {
 
         final List<dynamic> rooms = building['rooms'];
         for (var room in rooms) {
+          final roomName = room['name'];
+          final isProfessor = !['실', '사무실', '강의실', '회의실', '열람실', '자료실', '학습공간'].any((keyword) => roomName.contains(keyword));
+          final displayName = isProfessor
+            ? "$baseName-${room['number']}호 $roomName 교수님"
+            : "$baseName-${room['number']}호 $roomName";
           _locations.add(CustomLocation(
-            name: "$baseName-${room['number']}호 ${room['name']} 교수님",
+            name: displayName,
             coordinates: coordinates,
             indoorMapUrl: indoorMapUrl,
           ));
